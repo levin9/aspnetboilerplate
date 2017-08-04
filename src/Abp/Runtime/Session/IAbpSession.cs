@@ -6,7 +6,7 @@ namespace Abp.Runtime.Session
     /// <summary>
     /// Defines some session information that can be useful for applications.
     /// </summary>
-    public interface IAbpSession
+    public partial interface IAbpSession
     {
         /// <summary>
         /// Gets current UserId or null.
